@@ -22,7 +22,7 @@ export function WorkoutVideos() {
   const [isDescriptionExpanded, setIsDescriptionExpanded] = useState(false)
   const videosPerPage = 6
 
-  const categories = ['All', 'Full body Workouts', 'Push Workouts', 'Leg Workouts', 'Recipe']
+  const categories = ['All', 'Full body Workouts', 'Push Workouts', 'Leg Workouts', 'Workout tips', 'Recipe']
   const videos: Video[] = [
     {
       id: '1',
@@ -156,6 +156,36 @@ export function WorkoutVideos() {
       title: 'Underated leg day finisher',
       category: 'Leg Workouts',
       videoUrl: '/videos/Underated leg day finisher.mp4',
+    },
+    {
+      id: '22',
+      title: '3 reasons why your not building muscle',
+      category: 'Workout tips',
+      videoUrl: '/videos/3 reasons why your not building muscle.mp4',
+    },
+    {
+      id: '23',
+      title: '5 signs your calories are too low',
+      category: 'Workout tips',
+      videoUrl: '/videos/5 sign your calories are too low.mp4',
+    },
+    {
+      id: '24',
+      title: 'Benefits of kettlebell swings',
+      category: 'Workout tips',
+      videoUrl: '/videos/Benefits of kettlebell swings.mp4',
+    },
+    {
+      id: '25',
+      title: 'Benefits of pulse movements',
+      category: 'Workout tips',
+      videoUrl: '/videos/Benefits of pulse movements.mp4',
+    },
+    {
+      id: '26',
+      title: 'Why training hamstrings is so important',
+      category: 'Workout tips',
+      videoUrl: '/videos/Why training hamstrings is so important.mp4',
     }
   ]
 
